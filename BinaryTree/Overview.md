@@ -37,7 +37,6 @@
 - [Inorder Traversal](#Inorder-Traversal)
 - [Postorder Traversal](#Postorder-Traversal)
 - [BFS](#bfs)
-- [License](#license)
 ---
 ## BasicTree
    ```python
