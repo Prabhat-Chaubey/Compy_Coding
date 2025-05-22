@@ -29,3 +29,36 @@
 ---
 ## Binary Search Tree
 - The Binary Search tree is a tree when all the left side is smaller than the node and right side is greater than the node.
+
+---
+## Table of Contents
+- [BasicTree](#basictree)
+- [Installation](#installation)
+- [Features](#features)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+---
+## BasicTree
+   ```python
+ class Node:
+    def __init__(self, value):
+        self.value = value
+        self.left = None
+        self.right = None
+
+# Create nodes
+root = Node(1)
+root.left = Node(2)
+root.right = Node(3)
+root.left.left = Node(4)
+root.left.right = Node(5)
+
+# Simple tree structure:
+#         1
+#        / \
+#       2   3
+#      / \
+#     4   5
+
+   ```
