@@ -33,10 +33,10 @@
 ---
 ## Table of Contents
 - [BasicTree](#basictree)
-- [Installation](#installation)
-- [Features](#features)
-- [Usage](#usage)
-- [Contributing](#contributing)
+- [Preorder Traversal](#Preorder-Traversal)
+- [Inorder Traversal](#Inorder-Traversal)
+- [Postorder Traversal](#Postorder-Traversal)
+- [BFS](#bfs)
 - [License](#license)
 ---
 ## BasicTree
@@ -62,3 +62,57 @@ root.left.right = Node(5)
 #     4   5
 
    ```
+
+## Preorder Traversal
+- Visit the root node first, then the left subtree, then the right subtree.
+- 🔍 Used for copying trees, expression tree prefix notation, etc.
+ ```python
+def preorder(node):
+    if node:
+        print(node.value, end=' ')
+        preorder(node.left)
+        preorder(node.right)
+
+ ```
+
+## Inorder Traversal
+ - Visit the left subtree first, then the root, then the right subtree.
+ - 🔍 In binary search trees (BST), this returns values in sorted order.
+```python
+def inorder(node):
+    if node:
+        inorder(node.left)
+        print(node.value, end=' ')
+        inorder(node.right)
+```
+
+## Postorder Traversal
+ - Visit the left and right subtrees first, then the root.
+ - 🔍 Useful for deleting a tree, evaluating expression trees (postfix).
+```python
+def postorder(node):
+    if node:
+        postorder(node.left)
+        postorder(node.right)
+        print(node.value, end=' ')
+```
+## BFS
+- BFS explores all nodes level by level, from top to bottom, left to right.
+```python
+def bfs_traversal(root):
+    if root is None:
+        return
+
+    queue = deque()
+    queue.append(root)
+
+    while queue:
+        current = queue.popleft()
+        print(current.value, end=' ')
+
+        if current.left:
+            queue.append(current.left)
+        if current.right:
+            queue.append(current.right)
+
+```
