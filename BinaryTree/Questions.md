@@ -11,6 +11,7 @@ You are given the root node of a binary tree. The goal is to calculate how "deep
 Depth is defined as the number of nodes along the longest path from the root node down to a leaf node.
 - A tree with just one root node has depth.
 - A tree with multiple layers of children has greater depth.
+  
 This question helps you understand how to traverse a tree to compute global properties like height or depth.
 
 ---
@@ -20,6 +21,7 @@ You are given a binary tree and asked to determine whether it is balanced.
 A binary tree is considered height-balanced if:
 - For every node in the tree, the difference in height between its left and right subtree is no more than 1.
 - This condition must hold recursively at every node, not just the root.
+  
 This problem helps you practice recursion and teaches you to evaluate structural properties of subtrees.
 
 ---
