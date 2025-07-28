@@ -7,7 +7,7 @@
 
 
 ---
-### Find Maximum Depth of a Binary Tree
+### Question 1: Find Maximum Depth of a Binary Tree
 **Explanation:**
 You are given the root node of a binary tree. The goal is to calculate how "deep" the tree goes.
 Depth is defined as the number of nodes along the longest path from the root node down to a leaf node.
@@ -16,7 +16,7 @@ Depth is defined as the number of nodes along the longest path from the root nod
 This question helps you understand how to traverse a tree to compute global properties like height or depth.
 
 ---
-### Check if a Binary Tree is Height Balanced
+### Question 2: Check if a Binary Tree is Height Balanced
 **Explanation:**
 You are given a binary tree and asked to determine whether it is balanced.
 A binary tree is considered height-balanced if:
@@ -25,7 +25,7 @@ A binary tree is considered height-balanced if:
 This problem helps you practice recursion and teaches you to evaluate structural properties of subtrees.
 
 ---
-### Check if Two Binary Trees are Identical
+### Question 3: Check if Two Binary Trees are Identical
 **Explanation:**
 You are given the root nodes of two binary trees.
 You must check whether:
@@ -33,7 +33,7 @@ You must check whether:
 - Corresponding nodes in both trees contain the same values.
 This question focuses on tree comparison and recursive checking of structure + value equality at every level.
 ---
-### Convert a Binary Tree to its Mirror Tree
+### Question 4: Convert a Binary Tree to its Mirror Tree
 **Explanation:**
 You are given the root of a binary tree and asked to transform it into its mirror image.
 That means:
@@ -42,7 +42,7 @@ That means:
 This problem is great for understanding tree modification, not just reading or querying.
 ---
 
-### Check if a Binary Tree is Symmetric
+### Question 5: Check if a Binary Tree is Symmetric
 **Explanation:**
 You’re asked to check if a binary tree is a mirror of itself, meaning:
 - The left subtree is a mirror reflection of the right subtree.
