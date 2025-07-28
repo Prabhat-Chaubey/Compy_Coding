@@ -33,6 +33,7 @@ You must check whether:
 - Corresponding nodes in both trees contain the same values.
   
 This question focuses on tree comparison and recursive checking of structure + value equality at every level.
+
 ---
 ### Question 4: Convert a Binary Tree to its Mirror Tree
 **Explanation:**
@@ -42,6 +43,7 @@ That means:
 - The transformation should be done recursively or iteratively through the whole tree.
   
 This problem is great for understanding tree modification, not just reading or querying.
+
 ---
 
 ### Question 5: Check if a Binary Tree is Symmetric
