@@ -7,3 +7,10 @@
 
 
 ---
+### Find Maximum Depth of a Binary Tree
+**Explanation:**
+You are given the root node of a binary tree. The goal is to calculate how "deep" the tree goes.
+Depth is defined as the number of nodes along the longest path from the root node down to a leaf node.
+- A tree with just one root node has depth 1.
+- A tree with multiple layers of children has greater depth.
+This question helps you understand how to traverse a tree to compute global properties like height or depth.
