@@ -31,6 +31,7 @@ You are given the root nodes of two binary trees.
 You must check whether:
 - Both trees have the same structure (i.e., same shape), and
 - Corresponding nodes in both trees contain the same values.
+  
 This question focuses on tree comparison and recursive checking of structure + value equality at every level.
 ---
 ### Question 4: Convert a Binary Tree to its Mirror Tree
@@ -39,6 +40,7 @@ You are given the root of a binary tree and asked to transform it into its mirro
 That means:
 - For every node in the tree, swap its left and right child.
 - The transformation should be done recursively or iteratively through the whole tree.
+  
 This problem is great for understanding tree modification, not just reading or querying.
 ---
 
@@ -47,6 +49,7 @@ This problem is great for understanding tree modification, not just reading or q
 You’re asked to check if a binary tree is a mirror of itself, meaning:
 - The left subtree is a mirror reflection of the right subtree.
 - For example, if you folded the tree down the middle, both halves should match.
+  
 This is similar to checking if two trees are mirror images of each other, except the tree is comparing with itself.
 
 ---
